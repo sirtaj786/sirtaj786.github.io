@@ -1,6 +1,14 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "https://user-images.githubusercontent.com/101570740/200112393-82c93476-e6e4-4dca-9a6e-de52010f6871.png",
+    title: "TOGGL TRACK CLONE",
+    description: "Toggl Track is a time tracking software,time tracking and reporting services through their website along with mobile and desktop applications. Toggl Track tracks time blocks, optionally labeled with a task, a project, and tags.",
+    tech_stack: "HTML,CSS,JavaScript,Reactjs,Nodejs,Express,MongoDB",
+    github_url: "https://github.com/sirtaj786/Toggl-Track-Clone",
+    demo_url: "https://toggletrack-beta.vercel.app/",
+  },
+  {
     img: "https://user-images.githubusercontent.com/101570740/190072337-cff04427-5dcd-495c-8fb5-142536a7b981.png",
     title: "SEPHORA CLONE",
     description: "SEPHORA is a E-Commerce website  where user can buy Beauty Product. Sephora has been an industry-leading champion of diversity, inclusivity, and empowerment in the US, guided by longstanding company values.",

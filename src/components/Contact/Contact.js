@@ -57,6 +57,7 @@ function Contact() {
                <Box1 > 
               {/* <Box mb={""}> */}
               <form  onSubmit={handleSubmit}>
+          
                 <FormLabel>Email Address</FormLabel>
                 <Input type="email" w={"100%"} placeholder="Enter your Email"/>
                
@@ -68,6 +69,7 @@ function Contact() {
                 <Button mt={"1.5rem"}  type="submit"
                 disabled={state.submitting} bg={"blue"} w={"100%"}>Submit</Button>
                 </Box>
+              
               </form>
               {/* </Box> */}
               </Box1>

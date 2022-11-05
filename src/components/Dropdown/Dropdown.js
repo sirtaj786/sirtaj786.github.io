@@ -31,7 +31,9 @@ const CloseIcon = styled(FaTimes)`
 export const NavMenu = styled.div`
   display: flex;
   justify-content: center;
+  
   align-items: center;
+
   flex-direction: column;
 
   .menu-item + .menu-item {
@@ -43,7 +45,6 @@ export const NavLink = styled(ScrollLink)`
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
-
   &:hover {
     color: rgb(119, 119, 121);
   }

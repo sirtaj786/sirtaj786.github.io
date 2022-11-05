@@ -106,7 +106,7 @@ import {
                         //   }}
                           mt={14}
                         >
-                          324+
+                          279+
                         </Text>
                       </Center>
                     </Box>
