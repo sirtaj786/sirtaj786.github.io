@@ -19,6 +19,51 @@ export const Github = () => {
           >
             My Github Statistics
           </Text>
+          <Box>
+            <Center>
+          <Image
+                    align="center"
+                    src="https://github-readme-stats.vercel.app/api/top-langs?username=sirtaj786&theme=tokyonight&show_icons=true&locale=en&layout=compact"
+                    alt="sirtaj786"
+                />
+                </Center>
+                        <Box
+                style={{
+                    display: "flex",
+                    gap: "1rem",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    alignContent: "center",
+                }}
+            >
+                     <div style={{ marginBottom: "1.5rem" }}>
+                    <p>
+                        &nbsp;
+                        <img
+                            align="center"
+                            src="https://github-readme-stats.vercel.app/api?username=sirtaj786&theme=tokyonight&show_icons=true&locale=en"
+                            alt="sirtaj786"
+                        />
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        <img
+                            align="center"
+                            src="https://github-readme-streak-stats.herokuapp.com/?user=sirtaj786&theme=tokyonight"
+                            alt="sirtaj786"
+                        />
+                    </p>
+                </div>
+                </Box>
+
+
+
+             
+
+
+          </Box>
           <Box
             border="4px solid black"
             borderRadius="2rem"
@@ -26,6 +71,8 @@ export const Github = () => {
             pl={[2, 7, 45]}
             h={[10, 40, 60]}
           >
+           
+
             <Githubcalendar
               username="sirtaj786"
               year="last"
@@ -33,26 +80,16 @@ export const Github = () => {
               blockSize={15}
               blockMargin={5}
               fontSize={16}
+              theme="tokyonight"
             />
           </Box>
         </VStack>
       </Center>
       
-        <Box
-                     
-                      
-                    
-                    >
-                      <Center mt={"8rem"}>
-                       <Image src= {`https://github-readme-streak-stats.herokuapp.com/?user=sirtaj786&theme=tokyonight`} alt="github"/>
-                      </Center>
-                    </Box>
+      
   
     </Stack>
     
   );
 };
 
-//  <img className='stat' src="https://github-readme-stats.vercel.app/api?username=Vivek-Nemade&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="" /> 
-{/* <br /> */}
-{/* <img className='stat1' src="https://github-readme-streak-stats.herokuapp.com/?user=Vivek-Nemade&theme=tokyonight&hide_border=true" alt="" /> */}
