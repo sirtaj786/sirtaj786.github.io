@@ -13,8 +13,11 @@ const Header = ({ toggle }) => {
           />
         </Logo>
         <NavMenu>
+        <NavLink className="menu-item" to="hero" smooth={true}>
+        Home
+      </NavLink>
         <NavLink className="menu-item" to="about" smooth={true}>
-        About
+        About Me
       </NavLink>
       <NavLink className="menu-item" to="skills" smooth={true}>
         Skills

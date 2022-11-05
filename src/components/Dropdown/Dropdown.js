@@ -68,7 +68,7 @@ function Dropdown({ isOpen, toggle }) {
           to="about"
           smooth={true}
         >
-          About
+          About Me
         </NavLink>
         <NavLink
           onClick={toggle}

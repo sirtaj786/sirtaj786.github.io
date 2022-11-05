@@ -23,7 +23,7 @@ function Hero() {
     <main>
       
       <HeroContainer>
-        <HeroWrapper>
+        <HeroWrapper id="hero">
           <HeroLeft>
             <h1>Hi, I'm Sirtaj Khan</h1>
             <h5>Full Stack Web Developer</h5>

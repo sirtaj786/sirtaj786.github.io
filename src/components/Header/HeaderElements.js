@@ -19,7 +19,7 @@ export const Nav = styled.nav`
 export const NavLink = styled(ScrollLink)`
   color: rgb(119, 119, 121);
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   align-items: center;
   height: 100%;
   cursor: pointer;
@@ -47,6 +47,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
+  justify-content:space-between
   margin-right: -24px;
 
   .menu-item + .menu-item {
