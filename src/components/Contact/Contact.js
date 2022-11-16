@@ -20,7 +20,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { useForm,  } from "@formspree/react";
-import { CheckIcon } from "@chakra-ui/icons";
+import { CheckIcon,PhoneIcon } from "@chakra-ui/icons";
 
 
 function Contact() {
@@ -81,7 +81,7 @@ function Contact() {
         </div>
         <SocialIcon />
       </div>
-      
+      <Box ml={"14rem"} fontSize={18}><PhoneIcon/>+919518505179</Box>
       
     </ContactWrapper>
   );
