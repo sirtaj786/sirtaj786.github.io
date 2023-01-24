@@ -1,5 +1,13 @@
 // --------------------------------------- Project List
 export const ProjectList = [
+   {
+    img: "https://raw.githubusercontent.com/sirtaj786/instinctive-start-5063/main/frontend/public/Images/Home.png",
+    title: "HOMEDECOR",
+    description: "HomeDecor is a website where user can search for home decoration products like furnitures , kids toys and many more.According to their size Users can buy the furniture and Toys for kids.",
+    tech_stack:"HTML,CSS,JavaScript,Reactjs,Nodejs,Express,MongoDB",
+    github_url: "https://github.com/sirtaj786/instinctive-start-5063",
+    demo_url: "https://homedecorfurniture.vercel.app/",
+  },
   {
     img: "https://user-images.githubusercontent.com/101570740/200112393-82c93476-e6e4-4dca-9a6e-de52010f6871.png",
     title: "TOGGL TRACK CLONE",
